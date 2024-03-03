@@ -5,7 +5,7 @@ from ConvertCStruct import SimTypes
 SIMPRO_BUF_SIZE=256
 SIMPRO_HEAD=0xab
 SIMPRO_TAIL=0xcd
-SIMPRO_PAD=0xea #填充的flab，避免在数据包内出现head或tail重复,遇到ea则会跳过下一个字符的head和tail检查
+SIMPRO_PAD=0xea # 填充的flab，避免在数据包内出现head或tail重复,遇到ea则会跳过下一个字符的head和tail检查
 
 SIMPROTOL_SIZE=5 #协议包大小，不包含数据，即最小发送的数据长度,协议固定参数,请勿修改
 
