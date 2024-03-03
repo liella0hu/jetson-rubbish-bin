@@ -360,7 +360,7 @@ if __name__ == "__main__":
     ]
     p=SimTypes(UserStruct)
     # p=PySimTypes(UserStruct)
-    # p=MicroSimTypes(UserStruct)
+
     p.aa=1
     p.a=[1,2,3,4]
     p.b=[1,266]
