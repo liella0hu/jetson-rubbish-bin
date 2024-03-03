@@ -444,7 +444,7 @@ class Open_Camera(QtWidgets.QMainWindow, Ui_MainWindow):
             send_bytes = SIMPRO1.SimPro_Packet(send_data_bytes)
             ser.write(send_bytes)
         
-            # if len(send_bytes) > 0:  # 接收到数据
+            # if len(send_bytes) > 0:   # 接收到数据
             #     print("成功解析出数据包 长度: %d  包序号: %d" % (len(send_bytes), SIMPRO1.recv_id))
             #     if len(send_bytes) == len(user_data):  # 和结构体长度匹配了，要检查否则用户发送别的长度的包导致长度不一致
             #         user_data.fromBytes(send_bytes)
